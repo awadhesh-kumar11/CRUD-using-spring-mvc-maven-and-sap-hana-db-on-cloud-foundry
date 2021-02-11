@@ -1,0 +1,9 @@
+applications:
+-  name: RealTimeChat
+   memory: 1G
+   path: target/RealTimeChat.war
+   random-route: false
+   buildpacks: 
+   - sap_java_buildpack
+   services:
+   - check
